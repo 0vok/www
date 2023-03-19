@@ -1,0 +1,44 @@
+body {
+    background-color: #1E1E20;
+    /* color:  #3F888F; */
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    color: transparent;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    transition: 0.5s;
+}
+
+.btn {
+    font-family: 'Orbitron', sans-serif;
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    margin: 70px auto 0 auto;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.red {
+    color: red;
+    /* transition: 0.2s; */
+}
+
+@media (max-width: 244px) {
+    .header {
+        font-family: 'Roboto', sans-serif;
+        color: transparent;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 200px;
+    }
+}
